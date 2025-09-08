@@ -1,53 +1,38 @@
 # program_kasir_sederhana.py
 Mini project Python: Program kasir sederhana untuk menghitung total belanja.
-# Kasir Sederhana 
 
-Program ini adalah **mini project Python** untuk mencatat belanjaan, menghitung total harga dengan diskon otomatis, dan menghitung kembalian setelah pembayaran. Cocok sebagai latihan **Python dasar dan logika pemrograman**.
+# Simpan Barang – Mini Project Python
+
+Program ini adalah **mini project Python** untuk mencatat barang dan harga, serta menghitung total belanja. Cocok sebagai latihan **Python dasar, loop, list, dan pengolahan data**.
 
 ## Fitur
-- Input nama dan harga barang (angka saja, tanpa titik)
-- Menyimpan semua barang yang valid ke struk
+- Input nama dan harga barang
+- Validasi input harga (hanya angka)
+- Menyimpan semua barang yang valid ke list
+- Menampilkan daftar barang yang sudah dimasukkan
 - Menghitung total belanja
-- Menghitung diskon otomatis:
-  - Total >= 200.000 → diskon 15%
-  - Total >= 100.000 → diskon 10%
-  - Total < 100.000 → tidak ada diskon
-- Menampilkan struk belanja lengkap
-- Input pembayaran dan menghitung kembalian
-- Memberi pesan jika jumlah uang pembayaran tidak cukup
 
 ## Cara Pakai
 1. Jalankan program:
 ```bash
-python kasir_sederhana_.py
+python kasir_sederhana.py
 
 2. Masukkan nama barang dan harga.
-⚠️ Catatan: harga harus berupa angka langsung, misal 15000, jangan pakai titik.
+⚠️ Catatan penting: harga harus berupa angka langsung, misal 15000. Jangan pakai titik (15.000), karena program hanya menerima angka.
 
 
-3. Program akan menampilkan struk belanja, total belanja, diskon (jika ada), dan total akhir.
-
-
-4. Masukkan jumlah uang pembayaran untuk menghitung kembalian.
+3. Program akan menampilkan daftar barang dan total belanja.
 
 Contoh Output
 
-=== STRUK BELANJA ===
-Buku: 50000
-Pulpen: 10000
-Tas: 120000
-
-Total sebelum diskon: 180000
-Diskon: 18000
-Total setelah diskon: 162000
-
-Masukkan jumlah uang pembayaran: 200000
-Jumlah kembalian: 38000
+Nama: Buku, Harga: 50000
+Nama: Pulpen, Harga: 10000
+Nama: Tas, Harga: 120000
+total belanja: 180000
 
 Author
 Dinda Bela Safitri
 
 Catatan
 
-Project ini merupakan versi terbaru dari mini project kasir sebelumnya dengan penambahan fitur pembayaran dan kembalian. Semua susunan dan logika program dibuat sendiri sebagai latihan Python.
-
+Project ini dibuat sebagai latihan dasar Python dan pengolahan data sederhana. Input validasi harga membantu memastikan data yang masuk rapi dan mudah dihitung.
